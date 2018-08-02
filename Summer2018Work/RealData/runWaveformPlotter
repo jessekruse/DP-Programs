@@ -1,0 +1,6 @@
+#!/bin/bash
+
+Pwd=`pwd`
+
+$Pwd/waveformPlotter /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root 2728
+

@@ -1,0 +1,12 @@
+
+Loading: /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root
+
+virtual void FileReader::setupGeometry()
+AraEventCalibrator::loadAtriCalib(): INFO - Calibration file = /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2SampleTiming.txt
+loadAtriPedestals : Loading fAtriPedFile - /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2Pedestals.txt
+Number of DPs for Event 22: 16
+Number of DPs for Event 42: 16
+Number of DPs for Event 258: 16
+Number of DPs for Event 261: 16
+Number of DPs for Event 271: 16
+Number of DPs for Event 276: 16

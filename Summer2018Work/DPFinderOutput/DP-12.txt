@@ -1,0 +1,52 @@
+
+Loading: /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root
+
+virtual void FileReader::setupGeometry()
+AraEventCalibrator::loadAtriCalib(): INFO - Calibration file = /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2SampleTiming.txt
+loadAtriPedestals : Loading fAtriPedFile - /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2Pedestals.txt
+Number of DPs for Event 128: 12
+Number of DPs for Event 137: 12
+Number of DPs for Event 162: 12
+Number of DPs for Event 614: 12
+Number of DPs for Event 628: 12
+Number of DPs for Event 745: 12
+Number of DPs for Event 759: 12
+Number of DPs for Event 762: 12
+Number of DPs for Event 1001: 12
+Number of DPs for Event 1300: 12
+Number of DPs for Event 1533: 12
+Number of DPs for Event 1543: 12
+Number of DPs for Event 1546: 12
+Number of DPs for Event 1547: 12
+Number of DPs for Event 1550: 12
+Number of DPs for Event 1551: 12
+Number of DPs for Event 1552: 12
+Number of DPs for Event 1553: 12
+Number of DPs for Event 1556: 12
+Number of DPs for Event 1558: 12
+Number of DPs for Event 1560: 12
+Number of DPs for Event 1567: 12
+Number of DPs for Event 1568: 12
+Number of DPs for Event 1576: 12
+Number of DPs for Event 1577: 12
+Number of DPs for Event 1580: 12
+Number of DPs for Event 1581: 12
+Number of DPs for Event 1597: 12
+Number of DPs for Event 1598: 12
+Number of DPs for Event 1600: 12
+Number of DPs for Event 1637: 12
+Number of DPs for Event 1638: 12
+Number of DPs for Event 1640: 12
+Number of DPs for Event 1643: 12
+Number of DPs for Event 1648: 12
+Number of DPs for Event 1649: 12
+Number of DPs for Event 1658: 12
+Number of DPs for Event 1663: 12
+Number of DPs for Event 1676: 12
+Number of DPs for Event 1692: 12
+Number of DPs for Event 2182: 12
+Number of DPs for Event 2266: 12
+Number of DPs for Event 2352: 12
+Number of DPs for Event 2683: 12
+Number of DPs for Event 2698: 12
+Number of DPs for Event 2709: 12

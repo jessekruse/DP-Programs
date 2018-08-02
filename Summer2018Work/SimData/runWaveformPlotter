@@ -1,0 +1,8 @@
+#!/bin/bash
+
+Pwd=`pwd`
+
+cd $ARASIM
+
+$Pwd/waveformPlotter /data/user/jkruse/AraSim/outputs/SimEventsForDPFinder/simEvents.root 2
+

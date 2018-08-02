@@ -1,0 +1,59 @@
+
+Loading: /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root
+
+virtual void FileReader::setupGeometry()
+AraEventCalibrator::loadAtriCalib(): INFO - Calibration file = /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2SampleTiming.txt
+loadAtriPedestals : Loading fAtriPedFile - /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2Pedestals.txt
+Number of DPs for Event 591: 13
+Number of DPs for Event 593: 13
+Number of DPs for Event 594: 13
+Number of DPs for Event 608: 13
+Number of DPs for Event 620: 13
+Number of DPs for Event 624: 13
+Number of DPs for Event 1019: 13
+Number of DPs for Event 1030: 13
+Number of DPs for Event 1535: 13
+Number of DPs for Event 1536: 13
+Number of DPs for Event 1544: 13
+Number of DPs for Event 1548: 13
+Number of DPs for Event 1559: 13
+Number of DPs for Event 1561: 13
+Number of DPs for Event 1587: 13
+Number of DPs for Event 1615: 13
+Number of DPs for Event 1619: 13
+Number of DPs for Event 1622: 13
+Number of DPs for Event 1624: 13
+Number of DPs for Event 1627: 13
+Number of DPs for Event 1631: 13
+Number of DPs for Event 1632: 13
+Number of DPs for Event 1634: 13
+Number of DPs for Event 1639: 13
+Number of DPs for Event 1642: 13
+Number of DPs for Event 1644: 13
+Number of DPs for Event 1645: 13
+Number of DPs for Event 1646: 13
+Number of DPs for Event 1650: 13
+Number of DPs for Event 1652: 13
+Number of DPs for Event 1653: 13
+Number of DPs for Event 1654: 13
+Number of DPs for Event 1655: 13
+Number of DPs for Event 1656: 13
+Number of DPs for Event 1657: 13
+Number of DPs for Event 1659: 13
+Number of DPs for Event 1661: 13
+Number of DPs for Event 1664: 13
+Number of DPs for Event 1667: 13
+Number of DPs for Event 1668: 13
+Number of DPs for Event 1670: 13
+Number of DPs for Event 1671: 13
+Number of DPs for Event 1673: 13
+Number of DPs for Event 1679: 13
+Number of DPs for Event 1683: 13
+Number of DPs for Event 1687: 13
+Number of DPs for Event 1688: 13
+Number of DPs for Event 1689: 13
+Number of DPs for Event 2060: 13
+Number of DPs for Event 2094: 13
+Number of DPs for Event 2190: 13
+Number of DPs for Event 2314: 13
+Number of DPs for Event 2488: 13

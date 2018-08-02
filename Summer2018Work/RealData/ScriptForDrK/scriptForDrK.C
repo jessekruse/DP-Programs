@@ -1,0 +1,100 @@
+
+/*
+  Author: Jesse Kruse
+  Purpose: This program is designed to plot the event waveforms 
+  for all events in a given root file..
+
+*/
+
+
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string>
+#include <sstream>
+#include <unistd.h>
+#include <assert.h>
+#include "time.h"
+
+#include "TFile.h"
+#include "TTree.h"
+#include "TGraph.h"
+#include "TCanvas.h"
+#include "TH1.h"
+#include "TString.h"
+
+#include "FileReader.h"
+#include "StationGeometry.h"
+#include "Channel.h"
+#include "Pos.h"
+#include "OpticalIce.h"
+#include "ChannelCollection.h"
+
+using namespace std;
+
+int main(int argc, char **argv) {
+
+  // This program takes one argument - the root file containing the events you want to plot
+  if (argc<2) {printf("Need input file names\n"); return 1;}
+  
+  cout << "\nLoading: " << argv[1] << endl;
+
+  // Load the file containing the filtered events
+  FileReader reader(argv[1]);
+  
+
+  // Set max number of events for the reader
+  int numEvts = reader.getTotalNumEvents()-1;
+  reader.setMaxNumEvents(numEvts);
+
+  // Get the station geometry from the file
+  StationGeometry *geom=reader.getStationGeometry();
+  Channel::setGeometry(geom);
+  CurvedRay::setOpticalIce(new OpticalIce);
+  Pos::setOriginStatic(geom->getOriginPosition());
+  OpticalIce *ice = new OpticalIce();
+
+  //Create an array of canvases. 
+  TCanvas *canArr[numEvts];
+
+
+  for (int n=0; n<numEvts; n++) {
+    // naming and initializing each canvas
+    string num = Form("%i",n);
+    TString name = "can" + num;
+    canArr[n] = new TCanvas(name,name,800,800);
+    canArr[n]->Divide(4,4);
+  }
+
+
+  // Load events 
+  for (int i=0; i<numEvts; i++) {
+
+    if (reader.loadEvent(i))
+      cout << "Event " << i << endl;
+
+    // get channel collection for that event
+    ChannelCollection chan = reader.getChannelCollection();
+    int nChl = chan.getNumChans();
+
+    // print waveforms on canvases
+    TGraph *waveforms[16];
+    for (int ichl=0; ichl<nChl; ichl++){
+      waveforms[ichl] = chan.getChannel(ichl)->getWaveform();
+      canArr[i]->cd(ichl+1);
+      waveforms[ichl]->DrawClone("al");
+    }
+  }
+
+
+  // Save waveforms to a pdf
+  canArr[0]->Print("/home/jkruse/ARA/Summer2018Work/RealData/waveforms.pdf(");
+  for (int j=1; j<numEvts-1; j++) {
+    canArr[j]->Print("/home/jkruse/ARA/Summer2018Work/RealData/waveforms.pdf");
+  }
+  canArr[numEvts-1]->Print("/home/jkruse/ARA/Summer2018Work/RealData/waveforms.pdf)");
+
+}
+
+

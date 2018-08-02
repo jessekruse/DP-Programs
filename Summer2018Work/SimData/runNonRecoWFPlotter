@@ -1,0 +1,7 @@
+#!/bin/bash
+
+Pwd=`pwd`
+
+cd $ARASIM
+
+$Pwd/nonRecoWFPlotter /data/user/jkruse/AraSim/outputs/SimEventsForDPFinder/simEvents.root $Pwd/ExactNumAraSimDPs/simDPEvents.txt

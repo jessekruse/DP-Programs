@@ -1,0 +1,6 @@
+#!/bin/bash
+
+Pwd=`pwd`
+
+$Pwd/dpFinder /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root
+

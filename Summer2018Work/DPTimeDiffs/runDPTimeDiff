@@ -1,0 +1,10 @@
+#!/bin/bash
+
+Pwd=`pwd`
+cd $ARASIM
+
+#/home/jkruse/ARA/Summer2018Work/AraSimSamples/dpTimeDiff /data/user/jkruse/AraSim/outputs/AraOut.root
+
+/home/jkruse/ARA/Summer2018Work/DPTimeDiffs/dpTimeDiff /home/jkruse/ARA/Summer2018Work/DPTimeDiffs/inIceSimulatedSample.root
+
+cd $Pwd

@@ -1,0 +1,61 @@
+
+Loading: /data/user/aschultz/AraReco/Results/filteredEvents-Hit-TimSeq-Surf.root
+
+virtual void FileReader::setupGeometry()
+AraEventCalibrator::loadAtriCalib(): INFO - Calibration file = /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2SampleTiming.txt
+loadAtriPedestals : Loading fAtriPedFile - /net/ara/install_dir/AraRoot/branches/3.13//share/araCalib/ATRI/araAtriStation2Pedestals.txt
+Number of DPs for Event 221: 7
+Number of DPs for Event 350: 7
+Number of DPs for Event 368: 7
+Number of DPs for Event 384: 7
+Number of DPs for Event 701: 7
+Number of DPs for Event 705: 7
+Number of DPs for Event 707: 7
+Number of DPs for Event 721: 7
+Number of DPs for Event 780: 7
+Number of DPs for Event 823: 7
+Number of DPs for Event 841: 7
+Number of DPs for Event 860: 7
+Number of DPs for Event 897: 7
+Number of DPs for Event 1015: 7
+Number of DPs for Event 1021: 7
+Number of DPs for Event 1026: 7
+Number of DPs for Event 1075: 7
+Number of DPs for Event 1205: 7
+Number of DPs for Event 1257: 7
+Number of DPs for Event 1302: 7
+Number of DPs for Event 1519: 7
+Number of DPs for Event 1520: 7
+Number of DPs for Event 1521: 7
+Number of DPs for Event 1522: 7
+Number of DPs for Event 1524: 7
+Number of DPs for Event 1525: 7
+Number of DPs for Event 1863: 7
+Number of DPs for Event 1918: 7
+Number of DPs for Event 1924: 7
+Number of DPs for Event 1955: 7
+Number of DPs for Event 2011: 7
+Number of DPs for Event 2079: 7
+Number of DPs for Event 2121: 7
+Number of DPs for Event 2138: 7
+Number of DPs for Event 2147: 7
+Number of DPs for Event 2165: 7
+Number of DPs for Event 2167: 7
+Number of DPs for Event 2170: 7
+Number of DPs for Event 2174: 7
+Number of DPs for Event 2175: 7
+Number of DPs for Event 2211: 7
+Number of DPs for Event 2280: 7
+Number of DPs for Event 2391: 7
+Number of DPs for Event 2431: 7
+Number of DPs for Event 2440: 7
+Number of DPs for Event 2444: 7
+Number of DPs for Event 2471: 7
+Number of DPs for Event 2478: 7
+Number of DPs for Event 2481: 7
+Number of DPs for Event 2498: 7
+Number of DPs for Event 2514: 7
+Number of DPs for Event 2525: 7
+Number of DPs for Event 2526: 7
+Number of DPs for Event 2554: 7
+Number of DPs for Event 2612: 7

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+Pwd=`pwd`
+
+cd $ARASIM
+
+$Pwd/numHitsFinder $Pwd/simEvents.root 616

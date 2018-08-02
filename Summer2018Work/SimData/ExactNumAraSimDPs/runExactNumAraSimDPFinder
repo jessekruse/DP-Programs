@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pwd=`pwd`
+
+cd $ARASIM
+
+$pwd/exactNumAraSimDPFinder /data/user/jkruse/AraSim/outputs/SimEventsForDPFinder/simEvents.root 
